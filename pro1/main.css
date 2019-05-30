@@ -1,0 +1,214 @@
+body {
+    font-family: 'sans-serif', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#product-overview {
+    background: url("freedom.jpg");
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.section-title {
+    color: cadetblue;
+    text-align: center;
+}
+
+#product-overview h1 {
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+
+.main-header {
+    background: cadetblue;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: maroon;
+    margin: 0 5px 0 5px;
+    font-weight: bold;
+
+}
+
+nav li a:hover, nav li a:active {
+    text-decoration: none;
+    color: wheat;
+    border-bottom: 2px solid white;
+    padding: 5px 0;
+}
+
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: maroon;
+    font-size: 25px;
+}
+
+nav {
+    text-align: right;
+    width: calc(100% - 77px);
+}
+
+.inline-display {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#cta a {
+    color: white;
+    background: lightpink;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+#cta a:hover, #cta a:active {
+    color: white;
+    padding: 0 5px;
+    background: cadetblue;
+    border-radius: 8px;
+}
+
+.plan {
+    display: inline-block;
+    background: cadetblue;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    width: 30%;
+    vertical-align: middle;
+
+}
+
+.plan button {
+    background: midnightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    font: inherit;
+    cursor: pointer;
+
+}
+
+.plan h2 {
+    color: grey;
+}
+
+.plan h1, .plan h3 {
+    color: darkblue;
+}
+
+.plan ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.plan li {
+    display: block;
+    text-decoration: none;
+    color: midnightblue;
+    text-align: center;
+}
+
+.justify {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.recommended {
+    background: #00796B;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.recommended h2 {
+    color: deepskyblue;
+}
+
+.recommended h1, .recommended h3, .recommended li {
+    color: white;
+}
+
+h1.major {
+    background: white;
+    color: #00796B;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.middle {
+    padding: 5px;
+    background: hotpink;
+    text-align: center;
+    margin: 5px;
+}
+
+.middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.middle li {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.middle li div {
+    background: lightpink;
+    width: 200px;
+    margin: auto;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.middle li p {
+    color: white;
+    font-weight: bold;
+}
+
+.middle h1 {
+    color: white;
+}
+
+.footing {
+    background: rgba(0, 0, 0, 1);
+    padding: 5px;
+    text-align: center;
+
+}
+
+.footing nav {
+    text-align: center;
+    margin: auto;
+}
+
+.footing ul {
+    padding: 0;
+}
+
+.footing li a {
+    color: white;
+}
+

@@ -1,0 +1,21 @@
+.box {
+    background: cadetblue;
+    color: black;
+    padding: 5px 4px 3px 2px;
+    border: 2px solid black;
+    margin: 5px 4px 3px 2px;
+}
+
+.box-1 {
+    display: none;
+    height: 300px;
+    width: 50%;
+}
+
+.box-2 {
+    display: inline-block;
+}
+
+.box-2:hover {
+    background-color: darkred;
+}

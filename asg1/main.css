@@ -1,0 +1,32 @@
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+ol li {
+    background-color: black;
+    color: white;
+}
+
+li + li {
+    background-color: black;
+    color: white;
+}
+
+li {
+    font-family: inherit;
+
+}
+
+h1 {
+    font-family: sans-serif;
+    color: cadetblue;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+.green-code code {
+    color: green;
+}
